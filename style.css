@@ -91,6 +91,24 @@ body{
     color: #fff;
     font-weight: 300;
 }
+.contactInfo.education li{
+    margin-bottom: 15px;
+}
+.contactInfo.education h5{
+    color: #03a9f4;
+    font-weight: 500;
+    margin: 10px;
+}
+.contactInfo.education h4:nth-child(2){
+    color: #fff;
+    font-weight: 500;
+    margin: 10px;
+}
+.contactInfo.education h4{
+    color: #fff;
+    font-weight: 300;
+    margin: 10px;
+}
 .container .nav-right{
     position: relative;
     background: #fff;

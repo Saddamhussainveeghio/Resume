@@ -23,7 +23,7 @@ body{
 }
 .container .nav-left{
     position: relative;
-    background: rgba(128, 202, 148, 0.7);
+    background: rgb(62 51 35 / 83%);;
     padding: 40px;
 }
 .profile-text{
@@ -60,6 +60,35 @@ body{
 }
 .profile-text h2 span{
     font-size: 0.8em;
+    font-weight: 300;
+}
+.contactInfo{
+    padding-top: 40px;
+}
+.contactInfo .title{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.contactInfo ul{
+    position: relative;
+}
+.contactInfo ul li{
+    position: relative;
+    list-style-type: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.contactInfo ul li .icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: black;
+}
+.contactInfo ul li span{
+    color: #fff;
     font-weight: 300;
 }
 .container .nav-right{

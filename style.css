@@ -109,6 +109,21 @@ body{
     font-weight: 300;
     margin: 10px;
 }
+.contactInfo.language .percent{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: #0e1011;
+    display: block;
+    margin-top: 5px;
+}
+.contactInfo.language .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #03a9f4;
+}
 .container .nav-right{
     position: relative;
     background: #fff;

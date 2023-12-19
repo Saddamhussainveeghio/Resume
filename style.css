@@ -124,8 +124,23 @@ body{
     height: 100%;
     background: #03a9f4;
 }
-.container .nav-right{
+.container .nav-Right{
     position: relative;
     background: #fff;
     padding: 40px;
+}
+.about{
+    margin-bottom: 50px;
+}
+.about:last-child{
+    margin-bottom: 0;
+}
+.title2{
+    color: #003147;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+o{
+    color: #333;
 }
